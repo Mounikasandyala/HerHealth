@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Sedan SC', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f5f2;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #b2744c;
+}
+
+/* Section Headers */
+h2, h3 {
+    color: #b2744c;
+    font-weight: bold;
+}
+
+/* Blog Section */
+#blog {
+    background-color: #fff;
+}
+
+#blog img {
+    border-radius: 10px;
+}
+
+#blog .list-unstyled a {
+    color: #b2744c;
+}
+
+#blog .list-unstyled a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Utilities */
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-8, .col-md-4 {
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .col-md-8, .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
